@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="pt-4 vh-100  align-items-center bodyform">
+
+    <div class="container p-4 card shadow-lg p-3 mb-5 bg-body rounded contclass">
+        <h2 class="text-secondary"><b>Gestión Empleado</b></h2>
+        <form>
+         
+
+            <div class="row">
+                <div class="mb-3 col-6">
+                    <label for="clave">Primer Nombre:</label>
+                    <input class="form-control" type="text" id="mail" name="email" value=""
+                        placeholder="Ingrese su primer nombre*">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="clave">Segundo Nombre:</label>
+                    <input class="form-control" type="text" id="mail" name="email" value=""
+                        placeholder="Ingrese su segundo nombre">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-6">
+                    <label for="clave">Primer Apellido:</label>
+                    <input class="form-control" type="text" id="mail" name="email" value=""
+                        placeholder="Ingrese su primer apellido*">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="clave">Segundo Apellido:</label>
+                    <input class="form-control" type="text" id="mail" name="email" value=""
+                        placeholder="Ingrese su segundo apellido">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-6">
+                    <label for="texto">Cédula:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese su cédula*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="clave">Correo Electrónico:</label>
+                    <input class="form-control" type="text" id="direc" name="direcc" value=""
+                        placeholder="ejemplo@ejemplo.com">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-6">
+                    <label for="clave">Teléfono Celular:</label>
+                    <input class="form-control" type="text" id="mail" name="email" value="" placeholder="321 333 3333*">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="clave">Teléfono Fijo:</label>
+                    <input class="form-control" type="text" id="mail" name="email" value="" placeholder="321 6633">
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+            </div>
+
+            <div class= "btns">
+
+                <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+                    
+                    <input type="submit" value="Guardar" class="btn btn-outline-secondary btnsave">
+                    <input type="submit" value="Cancelar" class="btn btn-outline-secondary btncancel">
+                    <input type="submit" value="Editar" class="btn btn-outline-secondary btnedit" disabled data-bs-toggle="button">               
+                    <input type="submit" value="Borrar" class="btn btn-outline-secondary btndelete" disabled data-bs-toggle="button">
+               
+            </div>
+
+           <!-- <div class="row btns">
+                <div class="mb-3 col-3">
+                    <input type="submit" value="Guardar" class="btn btn-outline-secondary btnsave">
+                </div>
+                <div class="mb-3 col-3">
+                    <input type="submit" value="Cancelar" class="btn btn-outline-secondary btncancel">
+                </div>
+                <div class="mb-3 col-3 ">
+                    <input type="submit" value="Editar" class="btn btn-outline-secondary btnedit">
+                </div>
+                <div class="mb-3 col-3">
+                    <input type="submit" value="Borrar" class="btn btn-outline-secondary btndelete">
+                </div>
+            </div> -->
+        </form>
+    </div>
+</body>
+
+</html>

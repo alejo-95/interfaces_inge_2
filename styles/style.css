@@ -1,0 +1,73 @@
+
+.bodyform{
+    margin-top: 120px;
+    background: url(../assets/flotilla2.png) ; 
+    background-size: cover;
+    background-color: #f3f3f3;
+    backdrop-filter: blur(2px);
+    
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+}
+
+.contclass{
+    border-top: 4px solid rgb(39, 47, 119);
+    
+}
+
+.btns{
+    justify-content: center;
+    text-align: center;
+}
+
+.btnsave{
+
+    margin: 0px 10px;
+    padding: 10px 45px;
+    color: #fff;
+    background-color: rgb(45, 57, 163);
+    border-radius: 10px;
+    font-weight: bolder;
+    -webkit-box-shadow: 2px 5px 3px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
+    box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
+}
+
+.btncancel{  
+    margin: 0px 10px;
+    padding: 10px 45px;
+    color: #fff;
+    background-color: rgb(45, 57, 163);
+    border-radius: 10px;
+    font-weight: bolder;
+    -webkit-box-shadow: 2px 5px 3px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
+    box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
+}
+
+.btnedit{
+    margin: 0px 10px;
+    padding: 10px 55px;
+    color: #fff;
+    background-color: rgb(45, 57, 163);
+    border-radius: 10px;
+    font-weight: bolder;
+    -webkit-box-shadow: 2px 5px 3px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
+    box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
+}
+
+.btndelete{
+    margin: 0px 10px;
+    padding: 10px 55px;
+    color: #fff;
+    background-color: rgb(45, 57, 163);
+    border-radius: 10px;
+    font-weight: bolder;
+    -webkit-box-shadow: 2px 5px 3px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
+    box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
+}
