@@ -23,10 +23,13 @@ label{
     text-align: center;
 }
 
+.btnexit,
+.btnedit,
+.btndelete,
 .btnsave{
 
     margin: 0px 10px;
-    padding: 10px 45px;
+    padding: 10px 40px;
     color: #fff;
     background-color: rgb(45, 57, 163);
     border-radius: 10px;
@@ -35,10 +38,11 @@ label{
     -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
     box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
 }
+
 
 .btncancel{  
     margin: 0px 10px;
-    padding: 10px 45px;
+    padding: 10px 25px;
     color: #fff;
     background-color: rgb(45, 57, 163);
     border-radius: 10px;
@@ -48,9 +52,10 @@ label{
     box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
 }
 
-.btnedit{
+.btndisable,
+.btnsearch{
     margin: 0px 10px;
-    padding: 10px 55px;
+    padding: 10px 20px;
     color: #fff;
     background-color: rgb(45, 57, 163);
     border-radius: 10px;
@@ -60,7 +65,7 @@ label{
     box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
 }
 
-.btndelete{
+/* .btnedit{
     margin: 0px 10px;
     padding: 10px 55px;
     color: #fff;
@@ -70,4 +75,16 @@ label{
     -webkit-box-shadow: 2px 5px 3px -1px rgba(0,0,0,0.24);
     -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
     box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
-}
+} */
+
+/* .btndelete{
+    margin: 0px 10px;
+    padding: 10px 55px;
+    color: #fff;
+    background-color: rgb(45, 57, 163);
+    border-radius: 10px;
+    font-weight: bolder;
+    -webkit-box-shadow: 2px 5px 3px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 7px 10px 5px -1px rgba(0,0,0,0.24);
+    box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
+} */

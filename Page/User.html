@@ -13,39 +13,35 @@
 <body class="pt-4 vh-100  align-items-center bodyform">
 
     <div class="container p-4 card shadow-lg p-3 mb-5 bg-body rounded contclass">
-        <h2 class="text-secondary"><b>Gestión Dispositivo</b></h2>
+        <h2 class="text-secondary"><b>Gestión Usuario</b></h2>
         <form>
             <div class="row">
                 <div class="mb-3 col-6">
-                    <label for="texto">Nombre del dispositivo:</label>
+                    <label for="texto">Nombre:</label>
                     <input class="form-control" type="text" id="texto" name="texto" value=""
-                        placeholder="Ingrese el nombre del dispositivo*">
+                        placeholder="Ingrese su nombre de usuario*">
                     <small class="form-text text-danger" id="msgTexto"></small>
 
                 </div>
 
                 <div class="mb-3 col-6">
-                    <label for="clave">Número de serie:</label>
-                    <input class="form-control" type="text" id="mail" name="email" value=""
-                        placeholder="Ingrese el número de serie*">
-                    <small class="form-text text-danger" id="msgMail"></small>
+                    <label for="comboOne">Contraseña:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese su contraseña*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
                 </div>
-
             </div>
 
-            <div class="row">
-
-                <div class="mb-3 col-6">
-                    <label for="comboOne">Tipo Dispositivo:</label>
+            <div>
+                <div class="mb-3 col-12">
+                    <label for="comboOne">Tipo de perfil:</label>
                     <select class="form-control" name="comboOne" id="comboOne">
                         <option value="">Seleccionar...</option>
-                        <option value="Opción CO1">Portatil</option>
-                        <option value="Opción CO2">Cableado</option>
-                        <option value="Opción CO3">Accesorio</option>
+                        <option value="Opción CO1">Administrador</option>
+                        <option value="Opción CO2">Operador</option>
                     </select>
                     <small class="form-text text-danger" id="msgComboOne"></small>
                 </div>
-
             </div>
 
             <div class="btns">
@@ -53,12 +49,12 @@
                 <input type="submit" value="Consultar" class="btn btn-outline-secondary btnsearch">
                 <input type="submit" value="Crear" class="btn btn-outline-secondary btnsave">
                 <input type="submit" value="Editar" class="btn btn-outline-secondary btnedit" disabled
-                data-bs-toggle="button">
+                    data-bs-toggle="button">
                 <input type="submit" value="Cancelar" class="btn btn-outline-secondary btncancel">
                 <input type="submit" value="Borrar" class="btn btn-outline-secondary btndelete" disabled
                     data-bs-toggle="button">
                 <input type="submit" value="Inhabilitar" class="btn btn-outline-secondary btndisable" disabled
-                data-bs-toggle="button" >
+                    data-bs-toggle="button">
                 <input type="submit" value="Salir" class="btn btn-outline-secondary btnexit">
 
             </div>
