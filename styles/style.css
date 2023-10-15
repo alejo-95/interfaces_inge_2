@@ -24,8 +24,6 @@ label{
 }
 
 .btnexit,
-.btnedit,
-.btndelete,
 .btnsave{
 
     margin: 0px 10px;
@@ -39,7 +37,8 @@ label{
     box-shadow: 4px 8px 5px -1px rgba(0,0,0,0.24);
 }
 
-
+.btndelete,
+.btnedit,
 .btncancel{  
     margin: 0px 10px;
     padding: 10px 25px;

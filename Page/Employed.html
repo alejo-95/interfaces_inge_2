@@ -19,43 +19,43 @@
 
             <div class="row">
                 <div class="mb-3 col-6">
+                    <label for="texto">Cédula:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese su cédula*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+                </div>
+
+                <div class="mb-3 col-6">
                     <label for="clave">Primer Nombre:</label>
                     <input class="form-control" type="text" id="mail" name="email" value=""
                         placeholder="Ingrese su primer nombre*">
                     <small class="form-text text-danger" id="msgMail"></small>
                 </div>
 
+            </div>
+
+            <div class="row">
                 <div class="mb-3 col-6">
                     <label for="clave">Segundo Nombre:</label>
                     <input class="form-control" type="text" id="mail" name="email" value=""
                         placeholder="Ingrese su segundo nombre">
                     <small class="form-text text-danger" id="msgMail"></small>
                 </div>
-            </div>
 
-            <div class="row">
                 <div class="mb-3 col-6">
                     <label for="clave">Primer Apellido:</label>
                     <input class="form-control" type="text" id="mail" name="email" value=""
                         placeholder="Ingrese su primer apellido*">
                     <small class="form-text text-danger" id="msgMail"></small>
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="mb-3 col-6">
                     <label for="clave">Segundo Apellido:</label>
                     <input class="form-control" type="text" id="mail" name="email" value=""
                         placeholder="Ingrese su segundo apellido">
                     <small class="form-text text-danger" id="msgMail"></small>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="mb-3 col-6">
-                    <label for="texto">Cédula:</label>
-                    <input class="form-control" type="text" id="texto" name="texto" value=""
-                        placeholder="Ingrese su cédula*">
-                    <small class="form-text text-danger" id="msgTexto"></small>
-
                 </div>
 
                 <div class="mb-3 col-6">
@@ -84,10 +84,11 @@
 
                 <input type="submit" value="Consultar" class="btn btn-outline-secondary btnsearch">
                 <input type="submit" value="Crear" class="btn btn-outline-secondary btnsave">
-                <input type="submit" value="Editar" class="btn btn-outline-secondary btnedit" disabled
+                <input type="submit" value="Modificar" class="btn btn-outline-secondary btnedit" disabled
                 data-bs-toggle="button">
-                <input type="submit" value="Cancelar" class="btn btn-outline-secondary btncancel">
-                <input type="submit" value="Borrar" class="btn btn-outline-secondary btndelete" disabled
+                <input type="submit" value="Guardar" class="btn btn-outline-secondary btncancel" disabled
+                data-bs-toggle="button">
+                <input type="submit" value="Cancelar" class="btn btn-outline-secondary btndelete" disabled
                     data-bs-toggle="button">
                 <input type="submit" value="Inhabilitar" class="btn btn-outline-secondary btndisable" disabled
                 data-bs-toggle="button" >

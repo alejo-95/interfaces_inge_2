@@ -17,27 +17,39 @@
         <form>
             <div class="row">
                 <div class="mb-3 col-6">
-                    <label for="texto">Placa:</label>
-                    <input class="form-control" type="text" id="texto" name="placa" value=""
-                        placeholder="Ingrese la placa*">
-                    <small class="form-text text-danger" id="msgTexto"></small>
-
+                    <label for="comboOne">Placa:</label>
+                    <select class="form-control" name="comboOne" id="comboOne">
+                        <option value="">Seleccionar...</option>
+                        <option value="Opción CO1">TXZ123</option>
+                        <option value="Opción CO2">SPY567</option>
+                        <option value="Opción CO2">MDY509</option>
+                    </select>
+                    <small class="form-text text-danger" id="msgComboOne"></small>
                 </div>
+
                 <div class="mb-3 col-6">
-                    <label for="clave">Cédula:</label>
-                    <input class="form-control" type="text" id="mail" name="email" value=""
-                        placeholder="Ingrese la cédula*">
-                    <small class="form-text text-danger" id="msgMail"></small>
+                    <label for="comboOne">Cédula:</label>
+                    <select class="form-control" name="comboOne" id="comboOne">
+                        <option value="">Seleccionar...</option>
+                        <option value="Opción CO1">Andres Ramirez</option>
+                        <option value="Opción CO2">Camila Torres</option>
+                        <option value="Opción CO2">Maria Martinez</option>
+                    </select>
+                    <small class="form-text text-danger" id="msgComboOne"></small>
                 </div>
 
             </div>
 
             <div class="row">
                 <div class="mb-3 col-6">
-                    <label for="clave">Serial del dispositivo:</label>
-                    <input class="form-control" type="text" id="mail" name="email" value=""
-                        placeholder="Ingrese el serial del dispositivo*">
-                    <small class="form-text text-danger" id="msgMail"></small>
+                    <label for="comboOne">Ingrese el serial del dispositivo:</label>
+                    <select class="form-control" name="comboOne" id="comboOne">
+                        <option value="">Seleccionar...</option>
+                        <option value="Opción CO1">CE123456</option>
+                        <option value="Opción CO2">CR687970</option>
+                        <option value="Opción CO2">CT879009</option>
+                    </select>
+                    <small class="form-text text-danger" id="msgComboOne"></small>
                 </div>
 
                 <div class="mb-3 col-6">
@@ -101,13 +113,14 @@
 
                 <input type="submit" value="Consultar" class="btn btn-outline-secondary btnsearch">
                 <input type="submit" value="Crear" class="btn btn-outline-secondary btnsave">
-                <input type="submit" value="Editar" class="btn btn-outline-secondary btnedit" disabled
-                    data-bs-toggle="button">
-                <input type="submit" value="Cancelar" class="btn btn-outline-secondary btncancel">
-                <input type="submit" value="Borrar" class="btn btn-outline-secondary btndelete" disabled
+                <input type="submit" value="Modificar" class="btn btn-outline-secondary btnedit" disabled
+                data-bs-toggle="button">
+                <input type="submit" value="Guardar" class="btn btn-outline-secondary btncancel" disabled
+                data-bs-toggle="button">
+                <input type="submit" value="Cancelar" class="btn btn-outline-secondary btndelete" disabled
                     data-bs-toggle="button">
                 <input type="submit" value="Inhabilitar" class="btn btn-outline-secondary btndisable" disabled
-                    data-bs-toggle="button">
+                data-bs-toggle="button" >
                 <input type="submit" value="Salir" class="btn btn-outline-secondary btnexit">
 
             </div>
