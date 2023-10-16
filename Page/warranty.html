@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="pt-4 vh-100  align-items-center bodyform">
+
+    <div class="container p-4 card shadow-lg p-3 mb-5 bg-body rounded contclass">
+        <h2 class="text-secondary"><b>Gestión Garantías</b></h2>
+        <form>
+            <div class="row">
+
+                <div class="mb-3 col-6">
+                    <label for="texto">Código de la garantía:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese el código de la garantía*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="texto">Descripción de la garantía:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese el motivo de la garantía*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-6">
+                    <label for="comboOne">Proveedor del dispositivo:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese el proveedor">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="comboOne">Lote de la compra:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese el lote">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+                </div>
+            </div>
+
+            <div>
+                <div class="mb-3 col-12">
+                    <label for="comboOne">Estado de la garantía:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese el estado">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-6">
+                    <label for="clave">Fecha de la compra:</label>
+                    <input id="startDate" class="form-control" type="date" />
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="clave">Fecha de expiración de la garantía:</label>
+                    <input id="startDate" class="form-control" type="date" />
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
+            </div>
+
+            <div class="btns">
+
+                <input type="submit" value="Consultar" class="btn btn-outline-secondary btnsearch">
+                <input type="submit" value="Crear" class="btn btn-outline-secondary btnsave">
+                <input type="submit" value="Modificar" class="btn btn-outline-secondary btnedit" disabled
+                data-bs-toggle="button">
+                <input type="submit" value="Guardar" class="btn btn-outline-secondary btncancel" disabled
+                data-bs-toggle="button">
+                <input type="submit" value="Cancelar" class="btn btn-outline-secondary btndelete" disabled
+                    data-bs-toggle="button">
+                <input type="submit" value="Inhabilitar" class="btn btn-outline-secondary btndisable" disabled
+                data-bs-toggle="button" >
+                <input type="submit" value="Salir" class="btn btn-outline-secondary btnexit">
+
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
