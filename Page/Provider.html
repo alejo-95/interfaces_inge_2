@@ -13,22 +13,24 @@
 <body class="pt-4 vh-100  align-items-center bodyform">
 
     <div class="container p-4 card shadow-lg p-3 mb-5 bg-body rounded contclass">
-        <h2 class="text-secondary"><b>Gestión Dispositivo</b></h2>
+        <h2 class="text-secondary"><b>Gestión Proveedor</b></h2>
         <form>
             <div class="row">
+
                 <div class="mb-3 col-6">
-                    <label for="texto">Nombre del dispositivo:</label>
+                    <label for="texto">Código del Proveedor:</label>
                     <input class="form-control" type="text" id="texto" name="texto" value=""
-                        placeholder="Ingrese el nombre del dispositivo*">
+                        placeholder="Ingrese el código del proveedor*">
                     <small class="form-text text-danger" id="msgTexto"></small>
 
                 </div>
 
                 <div class="mb-3 col-6">
-                    <label for="clave">Número de serie:</label>
-                    <input class="form-control" type="text" id="mail" name="email" value=""
-                        placeholder="Ingrese el número de serie*">
-                    <small class="form-text text-danger" id="msgMail"></small>
+                    <label for="texto">Razón Social:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese la razón social*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
                 </div>
 
             </div>
@@ -36,27 +38,50 @@
             <div class="row">
 
                 <div class="mb-3 col-6">
-                    <label for="comboOne">Tipo Dispositivo:</label>
-                    <select class="form-control" name="comboOne" id="comboOne">
-                        <option value="">Seleccionar...</option>
-                        <option value="Opción CO1">Portatil</option>
-                        <option value="Opción CO2">Cableado</option>
-                        <option value="Opción CO3">Accesorio</option>
-                    </select>
-                    <small class="form-text text-danger" id="msgComboOne"></small>
-                </div>
-                
-                <div class="mb-3 col-5 btncontent">
-                    <label for="texto">Garantía tramitada:</label>
+                    <label for="texto">Telefóno Celular:</label>
                     <input class="form-control" type="text" id="texto" name="texto" value=""
-                        placeholder="Ingrese el código de la garantía*">                   
+                        placeholder="322 000 00 00">
                     <small class="form-text text-danger" id="msgTexto"></small>
+
                 </div>
 
+                <div class="mb-3 col-6">
+                    <label for="texto">Telefóno Fijo:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="321 00 00">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
+                </div>
 
             </div>
 
-            
+            <div class="row">
+
+                <div class="mb-3 col-6">
+                    <label for="texto">Dirección:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese la dirección*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label for="texto">Correo electrónico:</label>
+                    <input class="form-control" type="text" id="texto" name="texto" value=""
+                        placeholder="Ingrese el correo*">
+                    <small class="form-text text-danger" id="msgTexto"></small>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="mb-3 col-12">
+                    <label for="clave">Fecha de registro:</label>
+                    <input id="startDate" class="form-control" type="date" />
+                    <small class="form-text text-danger" id="msgMail"></small>
+                </div>
 
             <div class="btns">
 
